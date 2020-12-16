@@ -1,10 +1,26 @@
 
-                    
-# Portfolio
+                
+# Workout Tracker
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cristianmontenegrop/Workout-tracker)
+[![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](https://workout-tracker7.herokuapp.com/?id=5efcddd36f635a00179f94ec)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://workout-tracker7.herokuapp.com/?id=5efcddd36f635a00179f94ec)
+## Table of Contents 
 
-[![Foo](/public/assets/images/app-gif.gif)](https://workout-tracker7.herokuapp.com/?id=5efcddd36f635a00179f94ec)
+* [Demonstration](#Demonstration)
+
+* [Description](#Description)
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Questions](#questions)
+* [Contributing](#contributing)
+
+
+* [License](#license)
+
+## Demonstration
+
+[![Foo](public/assets/images/app-gif.gif)](https://workout-tracker7.herokuapp.com/?id=5efcddd36f635a00179f94ec) 
 
 ## Description
 
@@ -17,52 +33,26 @@ The user is able to:
 
 - View the combined weight of multiple exercises on the "stats" page. 
 
+## Technologies
 
-## Table of Contents 
+<ul><li>Express</li><li>MongoDB</li><li>Mongoose</li><li>Chart.js</li><li>Compression Middleware</li><li>API</li><li>Bootstrap CSS Framework</li><li>HTML</li><li>CSS</li><li>Javascript</li></ul>
+              
+## Installation 
+ To install necessary dependencies, run the following command: 'To install dependencies type 'npm i' in terminal'                   
 
-* [Technologies used](#Technologies%20Used)
-
-* [Usage](#usage)
-
-* [License](#license)
-
-* [Contributing](#contributing)
-
-* [Questions](#questions)              
-
-## Technologies Used
-
-- Express
-
-- MongoDB
-
-- Mongoose
-
-- HTML
-
-- CSS
-
-- Javascript
-
-- Bootsrap CSS Framework
-
-- Chart.js
-
-- Compression middleware
+## Usage 
+ Browse through the website and get going with tracking your daily exercise goals, [click here](https://workout-tracker7.herokuapp.com/?id=5efcddd36f635a00179f94ec) 
 
 
-## Usage
+## Contributing 
+If you wish to contribute in any way, please slack me here: https://join.slack.com/t/newworkspace-dfn1975/shared_invite/zt-k727lmi9-y4XTpsjANSSib4DbZaF~pA 
 
-Browse through the website and get going with tracking your daily exercise goals, [click here](https://workout-tracker7.herokuapp.com/?id=5efcddd36f635a00179f94ec)
+## Questions 
+ If you have any questions slack me here: https://join.slack.com/t/newworkspace-dfn1975/shared_invite/zt-k727lmi9-y4XTpsjANSSib4DbZaF~pA
 
 ## License
 
 This project is licensed under the MIT license.
-  
-## Contributing
 
-If you wish to cotribute feel free to reach out through Slack, my ID: UTW6F607J.
 
-## Questions
-
-For further assistance feel free to [Email me](mailto:cristian.montenegro.p@gmail.com)                    
+                    
