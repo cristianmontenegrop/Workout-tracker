@@ -1,13 +1,13 @@
-init();
-
-async function init() {
-  if (location.search.split("=")[1] === undefined) {
+const init = async () => {
+  if (window.location.search.split('=')[1] === undefined) {
     const workout = await API.getLastWorkout();
     if (workout) {
-      location.search = "?id=" + workout._id;
+      const idIs = '?id=';
+      window.location.search = idIs + workout._id;
     } else {
-      document.querySelector("#continue-btn").classList.add("d-none")
+      document.querySelector('#continue-btn').classList.add('d-none');
     }
   }
-}
+};
 
+init();
