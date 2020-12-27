@@ -1,24 +1,21 @@
-var compression = require('compression')
-var express = require("express");
-var mongoose = require("mongoose");
+const compression = require('compression');
+const express = require('express');
+const mongoose = require('mongoose');
 
+const app = express();
+app.use(compression());
 
-var app = express();
-app.use(compression())
+const PORT = process.env.PORT || 3000;
 
-var PORT = process.env.PORT || 3000;
-
-app.use(express.static("public"));
+app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-require("./routes/api-routes")(app);
-require("./routes/html-routes")(app);
+require('./routes/api-routes')(app);
+require('./routes/html-routes')(app);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
-    useNewUrlParser: true
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
+  useNewUrlParser: true,
 });
 
-app.listen(PORT, function () {
-    console.log(`Now listening on port: ${PORT}`);
-});
+app.listen(PORT, () => console.log('Now listening on port:', PORT));
